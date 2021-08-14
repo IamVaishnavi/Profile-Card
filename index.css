@@ -1,0 +1,88 @@
+body {
+  font-family: Montserrat, sans-serif;
+  color: black;
+}
+.container {
+  user-select: none;
+  margin: 100px auto;
+  background: url(https://images.unsplash.com/photo-1533035336122-4327d347d2fe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+  color:beige;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.75);
+}
+.cover-photo {
+  background:url(https://images.unsplash.com/photo-1533035336122-4327d347d2fe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+  height: 180px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.profile {
+  height: 80px;
+  width: 100px;
+  margin: 50px 70px;
+  padding: 15px;
+  background: white;
+}
+.profile-name {
+  font-size: 30px;
+  font-weight: bold;
+  margin: initial;
+  padding: 20px;
+  color:midnightblue;
+}
+.about {
+  margin-top: 10px;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  color: midnightblue;
+}
+button {
+  margin: 10px 10px 40px 10px;
+}
+.msg-btn,
+.follow-btn {
+  background: transparent;
+  border: 1px solid silver;
+  padding: 20px 50px;
+  color: white;
+  border-radius: 20px;
+  font-family: Montserrat, sans-serif;
+  cursor:pointer;
+}
+.follow-btn {
+  margin-left: 10px;
+  background:transparent;
+  color: white;
+}
+.msg-btn:hover {
+   color: white;
+  background: #292343;
+  transition: 0.5s;
+}
+.follow-btn:hover {
+  color: white;
+  background: #292343;
+  transition: 0.5s;
+}
+.container i {
+  padding-left: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.logo-effect1:hover{
+color: blue;
+}
+.logo-effect2:hover{
+color: purple;
+}
+.logo-effect3:hover{
+color: green;
+}
+.logo-effect4:hover{
+color: blue;
+}
